@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+ <!-- Dao 파일위치 -->
+<mapper namespace="com.project.udo.service.dao.TestDao">
+ 
+    <select id="selectAll" resultType="com.project.udo.vo.TestVo">
+    	select * from testtable;
+    </select>
+</mapper>
